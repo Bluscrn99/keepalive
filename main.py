@@ -1,7 +1,8 @@
 import time
 import requests
+import os
 
-URL_TO_PING = "https://ec2starter.onrender.com/ping"
+URL_TO_PING = os.environ.get('pingurl')
 
 while True:
     try:
