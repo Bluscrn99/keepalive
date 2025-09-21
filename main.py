@@ -9,5 +9,5 @@ while True:
         requests.get(URL_TO_PING, timeout=5)
         print("Ping!")
     except Exception as e:
-        print("Plonk. ", e)
+        print("Bonk. ", e)
     time.sleep(60)  # ping every minute
