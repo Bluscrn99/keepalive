@@ -1,6 +1,7 @@
 import time
 import requests
 import os
+import threading
 
 URL_TO_PING = os.environ.get('pingurl')
 
