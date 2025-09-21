@@ -7,7 +7,7 @@ URL_TO_PING = os.environ.get('pingurl')
 while True:
     try:
         requests.get(URL_TO_PING, timeout=5)
-        print("Pinged Service A successfully")
+        print("Ping!")
     except Exception as e:
-        print("Ping failed:", e)
+        print("Plonk. ", e)
     time.sleep(60)  # ping every minute
